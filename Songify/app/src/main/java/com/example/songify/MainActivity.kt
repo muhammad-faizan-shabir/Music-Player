@@ -167,6 +167,7 @@ class MainActivity : AppCompatActivity() {
         binding.refreshLayout.setOnRefreshListener {
             MusicListMA = getAllAudio()
             musicAdapter.updateMusicList(MusicListMA)
+            binding.totalSongs.text  = "Total Songs : "+musicAdapter.itemCount
 
             binding.refreshLayout.isRefreshing = false
         }

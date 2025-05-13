@@ -53,6 +53,7 @@ class PlaylistDetails : AppCompatActivity() {
                     PlaylistActivity.musicPlaylist.ref[currentPlaylistPos].playlist.clear()
                     adapter.refreshPlaylist()
                     dialog.dismiss()
+                    binding.shuffleBtnPD.visibility = View.INVISIBLE
                 }
                 .setNegativeButton("No"){dialog, _ ->
                     dialog.dismiss()

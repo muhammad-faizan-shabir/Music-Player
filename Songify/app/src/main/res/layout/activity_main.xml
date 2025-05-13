@@ -42,18 +42,7 @@
                         android:text="@string/shuffle_btn"
                         android:textAllCaps="false"
                         android:textColor="?colorOnPrimary" />
-                    <!--Favourites Button-->
-                    <!--<Button
-                        android:id="@+id/favouriteBtn"
-                        style="@style/Widget.AppCompat.Button.Borderless"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/favourites_btn"
-                        android:drawableTop="@drawable/favourite_icon"
-                        android:text="@string/favourites_btn"
-                        android:textAllCaps="false"
-                        android:textColor="?colorOnPrimary" />-->
+
                     <!--Playlists Button-->
                     <Button
                         android:id="@+id/playlistBtn"
@@ -67,18 +56,7 @@
                         android:textAllCaps="false"
                         android:textColor="?colorOnPrimary" />
 
-                    <!--Play Next Button-->
-                    <!--<Button
-                        android:id="@+id/playNextBtn"
-                        style="@style/Widget.AppCompat.Button.Borderless"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/playlist_btn"
-                        android:drawableTop="@drawable/play_next_icon"
-                        android:text="@string/play_next"
-                        android:textAllCaps="false"
-                        android:textColor="?colorOnPrimary" />-->
+
 
                 </LinearLayout>
 
